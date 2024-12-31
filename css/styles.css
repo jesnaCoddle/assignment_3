@@ -266,7 +266,7 @@ h1 span {
 
 /* services */
 
-.parent-container {
+.service {
     border: 1px solid red;
     display: flex;
     height: 300px;
@@ -309,9 +309,9 @@ h1 span {
 
 .right-content {
     margin-left: 100px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     width: 340px;
-    height: 440px;
+    height: 240px;
     padding: 64px;
     gap: 24px;
     border-radius: 32px;
@@ -319,17 +319,16 @@ h1 span {
 
 .right-content:hover {
     transform: scale(1.05);
-    box-shadow: 0px 9px 61px 2px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px 9px 61px 2px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 9px 61px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 9px 61px 2px rgba(0, 0, 0, 0.15);
+
 }
 
 
 .rtext {
+    /* border: 1px solid red; */
     text-align: center;
     height: 160px;
     width: 200px;
-    /* border: 1px solid red; */
 }
 
 /* topdestination */
